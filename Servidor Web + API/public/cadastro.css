@@ -1,0 +1,92 @@
+.cadastro-container {
+    background: rgba(56, 54, 54, 0.92);
+    border-radius: 14px;
+    box-shadow: 0 4px 24px rgba(207, 8, 8, 0.952);
+    padding: 38px 32px 28px 32px;
+    max-width: 320px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background: url('img/fundo_casdatro.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #140101;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cadastro-container h2 {
+    margin-bottom: 22px;
+    font-weight: 350;
+    letter-spacing: 1px;
+    color: #f5f5f5;
+    font-size: 2rem;
+}
+
+.cadastro-container input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+    border: 1.5px solid #bdbdbd;
+    border-radius: 6px;
+    background: #eaf3fa;
+    color: #1a3a5d;
+    font-size: 1rem;
+    transition: border 0.2s;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.cadastro-container input:focus {
+    border: 1.5px solid #e74c3c;
+    background: #fff;
+}
+
+.cadastro-container button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #b31c1c 0%, #850404 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    margin-bottom: 8px;
+    box-shadow: 0 2px 8px rgba(26,58,93,0.08);
+    margin-top: 10px;
+}
+
+.cadastro-container button:hover {
+    background: linear-gradient(90deg, #8f1313 0%, #9b0101 100%);
+    box-shadow: 0 4px 16px rgba(26,58,93,0.12);
+}
+
+#voltar-login {
+    color: #fcfcfc;
+    text-decoration: none;
+    margin-top: 1px;
+    display: block;
+    font-size: 15px;
+}
+
+#voltar-login:hover {
+    text-decoration: underline;
+}
+
+#mensagem-cadastro {
+    color: #ddd8d7;
+    margin-top: 12px;
+    font-size: 14px;
+    min-height: 18px;
+    text-align: center;
+    background: transparent;
+} 
