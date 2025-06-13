@@ -7,7 +7,7 @@
 
 Populando o banco de dados PostgreSQL:
 - procure pelo arquivo banco.sql na pasta Banco de Dados
-- popule seu bando de dados com as tabelas do arquivo
+- popule seu banco de dados com as tabelas do arquivo
 - você pode utilizar um banco de dados PostgreSQL em nuvem gratuito como o Neon
 
 Configurando a conexão com o banco de dados em Servidor Web + API:
