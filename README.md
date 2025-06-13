@@ -1,6 +1,6 @@
 # Powerfit-Academia 
 
-- Na pasta Servidor Web + API, nos arquivos index.js, cadastro.js e login.js:
+ Na pasta Servidor Web + API, nos arquivos index.js, cadastro.js e login.js:
 - procure por (seu-link-do-backend)
 - substitua pelo link da sua hospedagem do Node.JS
 - você pode utilizar o Replit para hospedar rapidamente o servidor Node.JS com o Front-end e a API
