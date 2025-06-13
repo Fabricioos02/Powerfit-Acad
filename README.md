@@ -1,4 +1,17 @@
 # Powerfit-Academia 
-- Baixe o arquivo e descompacte.
-- O banco de dados usamos o "Neon Console" para privacidade. 
-- Abra o arquivo index.html na pasta frontend e realize os testes do site. 
+
+- Na pasta Servidor Web + API, nos arquivos index.js, cadastro.js e login.js:
+- procure por (seu-link-do-backend)
+- substitua pelo link da sua hospedagem do Node.JS
+- você pode utilizar o Replit para hospedar rapidamente o servidor Node.JS com o Front-end e a API
+
+Populando o banco de dados PostgreSQL:
+- procure pelo arquivo banco.sql na pasta Banco de Dados
+- popule seu bando de dados com as tabelas do arquivo
+- você pode utilizar um banco de dados PostgreSQL em nuvem gratuito como o Neon
+
+Configurando a conexão com o banco de dados em Servidor Web + API:
+- entre no arquivo sample.env
+- edite DATABASE_URL='seu-link-da-conexao-com-o-banco-de-dados'
+- edite JWT_SECRET=chave-de-criptografia-qualquer
+- renomeie sample.env para .env
