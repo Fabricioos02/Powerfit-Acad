@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tela de pagamento</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Confirme Seu Pagamento</h1>
+        <br>
+        <div class="first-row">
+            <div class="nome">
+                <h3>Nome Titular</h3>
+                <div class="input-field">
+                    <input type="text" placeholder="Digite o nome">
+                </div>
+            </div>
+            <div class="cvv">
+                <h3>CVV</h3>
+                <div class="input-field">
+                    <input type="password" placeholder="123">
+                </div>
+            </div>
+        </div>
+<br>
+        <div class="second-row">
+            <div class="numero-cartao">
+                <h3>Número cartão</h3>
+                <div class="input-field">
+                    <input type="text" placeholder="0000 0000 0000 0000">
+                </div>
+            </div>
+        </div>
+<br>
+        <div class="third-row">
+            <h3>Vencimento</h3>
+            <div class="selection">
+                <div class="date">
+                    <select name="meses" id="meses">
+                        <option value="Jan">Jan</option>
+                        <option value="Fev">Fev</option>
+                        <option value="Mar">Mar</option>
+                        <option value="Abr">Abr</option>
+                        <option value="Mai">Mai</option>
+                        <option value="Jun">Jun</option>
+                        <option value="Jul">Jul</option>
+                        <option value="Ago">Ago</option>
+                        <option value="Set">Set</option>
+                        <option value="Out">Out</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dez">Dez</option>
+                    </select>
+                    <select name="anos" id="anos">
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                        <option value="2031">2031</option>
+                        <option value="2032">2032</option>
+                        <option value="2033">2033</option>
+                        <option value="2034">2034</option>
+                    </select>
+                </div>
+                <div class="cards">
+                    <img src="bandeiras.png" alt="">
+                </div>
+            </div>    
+        </div>
+
+        <a href="#">Confirmar</a>
+    </div>
+</body>
+</html>
