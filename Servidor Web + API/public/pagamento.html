@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pagamento.css">
 </head>
 <body>
+    
     <div class="container">
         <h1>Confirme Seu Pagamento</h1>
         <br>
@@ -67,12 +69,29 @@
                     </select>
                 </div>
                 <div class="cards">
-                    <img src="bandeiras.png" alt="">
+                    <img src="img/bandeiras.png" alt="">
                 </div>
             </div>    
         </div>
 
-        <a href="#">Confirmar</a>
+        <a id="confirmar" href="#">Confirmar</a>
+
+        <p id="mensagem" style="margin-top:20px; display:none; color:green; font-weight:bold;"></p>
     </div>
+
+    <script>
+        document.getElementById("confirmar").addEventListener("click", function (event) {
+            event.preventDefault();
+
+            const msg = document.getElementById("mensagem");
+            msg.innerText = "Pagamento aprovado!";
+            msg.style.display = "block";
+
+            setTimeout(() => {
+            window.location.href = "index.html";  
+            }, 2000);
+        });
+    </script>
+
 </body>
 </html>
